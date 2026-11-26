@@ -6,7 +6,7 @@ if test "$quiet" = "1"; then
 fi
 
 load mmc 0:1 0x41000000 zImage
-load mmc 0:1 0x41800000 sun8i-v3s-licheepi-zero-dock.dtb
+load mmc 0:1 0x41800000 sun8i-v3lp-squidpi-dock.dtb
 
 if test "$initramfs" = "1"; then
 	setenv bootargs "${bootargs} rdinit=/init initrd=0x42000000"
