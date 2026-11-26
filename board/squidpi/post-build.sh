@@ -6,8 +6,8 @@ EP=$BR2_EXTERNAL_MSQUID_PATH
 source ${BR2_CONFIG} &> /dev/null
 
 if [[ -v BR2_EXTERNAL_ENABLE_INITRAMFS ]]; then
-	echo "Copying initramfs.cpio.uboot from ${EP}/board/licheepi/initramfs to ${IP}"
-	cp ${EP}/board/licheepi/initramfs/initramfs.cpio.uboot ${IP}/../images
+	echo "Copying initramfs.cpio.uboot from ${EP}/board/squidpi/initramfs to ${IP}"
+	cp ${EP}/board/squidpi/initramfs/initramfs.cpio.uboot ${IP}/../images
 else
 	touch ${IP}/../images/initramfs.cpio.uboot
 fi
