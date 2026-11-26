@@ -124,7 +124,7 @@
 //			linux,default-trigger = "activity";
 //		};
 //	};
-//};
+};
 
 // &de {
 //	status = "okay";
@@ -149,7 +149,6 @@
 //	};
 //};
 
-// 板载emmc
 // &mmc0 {
 // 	broken-cd;
 // 	bus-width = <4>;
@@ -197,7 +196,7 @@
 // 		wakeup-source;
 // 		status = "okay";
 // 	};
-// };
+//};
 
 // OV5640
 // &csi1 {
